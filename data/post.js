@@ -12,8 +12,8 @@ module.exports.postData = [
             { userId: "609209d53b1ed669e6cc10a5", vote: 1 },
         ],
         comments: [
-            { username: "DukeOfWindsor", comment: "goodbye" },
-            { username: "NotOfDukeOfWindsor", comment: "bye" },
+            { username: "DukeOfWindsor", text: "goodbye" },
+            { username: "NotOfDukeOfWindsor", text: "bye" },
         ],
     },
     {
@@ -28,8 +28,8 @@ module.exports.postData = [
             { userId: "609209d53b1ed669e6cc10a5", vote: 1 },
         ],
         comments: [
-            { username: "DukeOfWindsor", comment: "goodbye" },
-            { username: "NotOfDukeOfWindsor", comment: "bye" },
+            { username: "DukeOfWindsor", text: "goodbye" },
+            { username: "NotOfDukeOfWindsor", text: "bye" },
         ],
     },
     {
@@ -44,8 +44,8 @@ module.exports.postData = [
             { userId: "609209d53b1ed669e6cc10a5", vote: 1 },
         ],
         comments: [
-            { username: "DukeOfWindsor", comment: "goodbye" },
-            { username: "NotOfDukeOfWindsor", comment: "bye" },
+            { username: "DukeOfWindsor", text: "goodbye" },
+            { username: "NotOfDukeOfWindsor", text: "bye" },
         ],
     },
     {
@@ -60,8 +60,8 @@ module.exports.postData = [
             { userId: "609209d53b1ed669e6cc10a5", vote: -1 },
         ],
         comments: [
-            { username: "DukeOfWindsor", comment: "goodbye" },
-            { username: "NotOfDukeOfWindsor", comment: "bye" },
+            { username: "DukeOfWindsor", text: "goodbye" },
+            { username: "NotOfDukeOfWindsor", text: "bye" },
         ],
     },
 ];

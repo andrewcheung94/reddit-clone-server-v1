@@ -110,7 +110,10 @@ const votePost = (req, res) => {
 
             tempVotes.push({ userId: userId, vote: vote });
             
-            Post.findOneAndUpdate({ _id: postId }, { votes: tempVotes }).then((user, err) => {
+            Post.findOneAndUpdate(
+                { _id: postId }, 
+                { votes: tempVotes }
+            ).then((user, err) => {
                 if (err) return res.status(500).send({ message: err });
             });    
             
@@ -121,10 +124,10 @@ const votePost = (req, res) => {
 };
 
 const commentPost = (req, res) => {
-    
     const postId = req.body.postId;
     const comment = req.body.comment;
     const userId = req.body.id;
+    console.log(req.body);
 
     // post, user, comment validation
     if (!postId || !comment || !userId)
