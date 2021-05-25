@@ -23,11 +23,11 @@ app.use("/posts", verifyToken, postRoutes);
 app.use("/login", loginRoutes);
 
 // Serve ReactJs App
-// app.use(express.static(path.join(__dirname, "client/build")));
+app.use(express.static(path.join(__dirname, "client/build")));
 
-// app.use("*", (req, res) => {
-//     res.sendFile(__dirname + "/client/build/index.html");
-// });
+app.use("*", (req, res) => {
+    res.sendFile(__dirname + "/client/build/index.html");
+});
 
 app.listen(port, () => console.log(`server is running on port: ${port}`));
 
