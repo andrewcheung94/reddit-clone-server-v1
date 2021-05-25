@@ -9,7 +9,7 @@ const { verifyToken } = require("./controllers/authController");
 
 const app = express();
 app.use(express.static(path.join(__dirname, "client/build")));
-const port = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 const db = require("./config/database");
@@ -23,6 +23,6 @@ app.use("*", (req, res) => {
     res.sendFile(__dirname + "/client/build/index.html");
 });
 
-app.listen(port, () => console.log(`server is running on port: ${port}`));
+app.listen(PORT, () => console.log(`server is running on port: ${PORT}`));
 
 module.exports = app;
