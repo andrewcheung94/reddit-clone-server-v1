@@ -1,0 +1,16 @@
+.app-nav__item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.app-nav-links {
+    display: inline;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}

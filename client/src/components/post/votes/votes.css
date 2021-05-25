@@ -1,0 +1,26 @@
+.post-votes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-votes__text {
+    font-weight: 700;
+}
+
+.up-vote, .down-vote {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.up-vote {
+    background-color: rgb(30, 145, 30);
+}
+
+.down-vote {
+    background-color: rgb(201, 20, 20);
+}

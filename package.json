@@ -2,7 +2,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "yarn && (cd frontend && yarn && yarn run build)"
+    "build": "yarn && (cd client && yarn && yarn run build)"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",

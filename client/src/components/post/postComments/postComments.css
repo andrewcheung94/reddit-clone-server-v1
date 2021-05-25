@@ -1,0 +1,31 @@
+.post-comments {
+    width: 80%;
+}
+
+.post-comments__form {
+    display: flex;
+    width: 100%;
+}
+
+.post-comments__form-input {
+    flex: 9;
+    padding: 4px;
+    color: rgb(104, 104, 104);
+    border-top-left-radius: 8px;
+    background-color: white;
+    border: 2px solid #c4c4c4;
+    margin: 0;
+}
+
+.post-comments__form-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 1pt rgba(18,125,197,0.5);
+}
+
+.post-comments__form-btn {
+    flex: 1;
+    background-color: #c4c4c4;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    margin: 0;
+}

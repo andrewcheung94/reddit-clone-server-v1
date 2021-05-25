@@ -1,0 +1,32 @@
+.subreddit-contianer {
+    display: flex;
+    justify-content: center;
+}
+
+.subreddit {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+
+.subreddit__link {
+    border: 2px solid rgb(126, 126, 126);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.subreddit__link:hover {
+    background: linear-gradient(to right, #ff4b2b, #fe5c82);
+}
+
+.subreddit__link a {
+    color: inherit;
+}
