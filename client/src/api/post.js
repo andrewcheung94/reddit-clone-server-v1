@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = process.env.REACT_APP_API_URL;
+const url = "";
 
 export const addPost = async (post) => {
     post.votes = {userId: "" , vote: 0};
